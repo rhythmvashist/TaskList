@@ -49,8 +49,6 @@ function getTasks(){
     tasklist.appendChild(li);
     
   })
-
-
 }
 
 function filterTasks(e){
@@ -144,7 +142,6 @@ function removeTaskfromLS(taskItem){
 
   });
   localStorage.setItem('tasks',JSON.stringify(tasks));
-  
 }
 
 
